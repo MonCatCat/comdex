@@ -1,17 +1,18 @@
 package tokenmint_test
 
 import (
-	"github.com/comdex-official/comdex/app"
-	"github.com/comdex-official/comdex/x/tokenmint"
-	"github.com/comdex-official/comdex/x/tokenmint/keeper"
-	"github.com/comdex-official/comdex/x/tokenmint/types"
+	"strings"
+	"testing"
+
+	"github.com/MonCatCat/comdex/v9/app"
+	"github.com/MonCatCat/comdex/v9/x/tokenmint"
+	"github.com/MonCatCat/comdex/v9/x/tokenmint/keeper"
+	"github.com/MonCatCat/comdex/v9/x/tokenmint/types"
 	"github.com/cosmos/cosmos-sdk/testutil/testdata"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/stretchr/testify/require"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
-	"strings"
-	"testing"
 )
 
 func TestInvalidMsg(t *testing.T) {

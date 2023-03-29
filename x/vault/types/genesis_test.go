@@ -1,9 +1,10 @@
 package types_test
 
 import (
-	"github.com/comdex-official/comdex/x/vault/types"
-	"github.com/stretchr/testify/require"
 	"testing"
+
+	"github.com/MonCatCat/comdex/v9/x/vault/types"
+	"github.com/stretchr/testify/require"
 )
 
 func TestGenesisState_Validate(t *testing.T) {

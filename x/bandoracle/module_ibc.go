@@ -11,7 +11,7 @@ import (
 	host "github.com/cosmos/ibc-go/v4/modules/core/24-host"
 	ibcexported "github.com/cosmos/ibc-go/v4/modules/core/exported"
 
-	"github.com/comdex-official/comdex/x/bandoracle/types"
+	"github.com/MonCatCat/comdex/v9/x/bandoracle/types"
 )
 
 // OnChanOpenInit implements the IBCModule interface.

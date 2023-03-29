@@ -3,8 +3,8 @@ package rewards
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/comdex-official/comdex/x/rewards/keeper"
-	"github.com/comdex-official/comdex/x/rewards/types"
+	"github.com/MonCatCat/comdex/v9/x/rewards/keeper"
+	"github.com/MonCatCat/comdex/v9/x/rewards/types"
 )
 
 func InitGenesis(ctx sdk.Context, k keeper.Keeper, state *types.GenesisState) {

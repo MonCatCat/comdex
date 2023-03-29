@@ -4,17 +4,17 @@ import (
 	"github.com/CosmWasm/wasmd/x/wasm"
 	wasmkeeper "github.com/CosmWasm/wasmd/x/wasm/keeper"
 
-	assetkeeper "github.com/comdex-official/comdex/x/asset/keeper"
-	auctionKeeper "github.com/comdex-official/comdex/x/auction/keeper"
-	collectorKeeper "github.com/comdex-official/comdex/x/collector/keeper"
-	esmKeeper "github.com/comdex-official/comdex/x/esm/keeper"
-	lendKeeper "github.com/comdex-official/comdex/x/lend/keeper"
-	liquidationKeeper "github.com/comdex-official/comdex/x/liquidation/keeper"
-	liquidityKeeper "github.com/comdex-official/comdex/x/liquidity/keeper"
-	lockerkeeper "github.com/comdex-official/comdex/x/locker/keeper"
-	rewardsKeeper "github.com/comdex-official/comdex/x/rewards/keeper"
-	tokenMintkeeper "github.com/comdex-official/comdex/x/tokenmint/keeper"
-	vaultKeeper "github.com/comdex-official/comdex/x/vault/keeper"
+	assetkeeper "github.com/MonCatCat/comdex/v9/x/asset/keeper"
+	auctionKeeper "github.com/MonCatCat/comdex/v9/x/auction/keeper"
+	collectorKeeper "github.com/MonCatCat/comdex/v9/x/collector/keeper"
+	esmKeeper "github.com/MonCatCat/comdex/v9/x/esm/keeper"
+	lendKeeper "github.com/MonCatCat/comdex/v9/x/lend/keeper"
+	liquidationKeeper "github.com/MonCatCat/comdex/v9/x/liquidation/keeper"
+	liquidityKeeper "github.com/MonCatCat/comdex/v9/x/liquidity/keeper"
+	lockerkeeper "github.com/MonCatCat/comdex/v9/x/locker/keeper"
+	rewardsKeeper "github.com/MonCatCat/comdex/v9/x/rewards/keeper"
+	tokenMintkeeper "github.com/MonCatCat/comdex/v9/x/tokenmint/keeper"
+	vaultKeeper "github.com/MonCatCat/comdex/v9/x/vault/keeper"
 )
 
 func RegisterCustomPlugins(

@@ -6,10 +6,10 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	protobuftypes "github.com/gogo/protobuf/types"
 
-	utils "github.com/comdex-official/comdex/types"
-	"github.com/comdex-official/comdex/x/liquidation/types"
-	rewardstypes "github.com/comdex-official/comdex/x/rewards/types"
-	vaulttypes "github.com/comdex-official/comdex/x/vault/types"
+	utils "github.com/MonCatCat/comdex/v9/types"
+	"github.com/MonCatCat/comdex/v9/x/liquidation/types"
+	rewardstypes "github.com/MonCatCat/comdex/v9/x/rewards/types"
+	vaulttypes "github.com/MonCatCat/comdex/v9/x/vault/types"
 )
 
 func (k Keeper) LiquidateVaults(ctx sdk.Context) error {

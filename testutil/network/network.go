@@ -17,7 +17,7 @@ import (
 	tmrand "github.com/tendermint/tendermint/libs/rand"
 	tmdb "github.com/tendermint/tm-db"
 
-	comdex "github.com/comdex-official/comdex/app"
+	comdex "github.com/MonCatCat/comdex/v9/app"
 )
 
 type (

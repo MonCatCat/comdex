@@ -3,8 +3,8 @@ package asset
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/comdex-official/comdex/x/asset/keeper"
-	"github.com/comdex-official/comdex/x/asset/types"
+	"github.com/MonCatCat/comdex/v9/x/asset/keeper"
+	"github.com/MonCatCat/comdex/v9/x/asset/types"
 )
 
 func InitGenesis(ctx sdk.Context, k keeper.Keeper, state *types.GenesisState) {

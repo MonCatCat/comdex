@@ -10,7 +10,7 @@ import (
 	tmtypes "github.com/tendermint/tendermint/types"
 	tmdb "github.com/tendermint/tm-db"
 
-	comdex "github.com/comdex-official/comdex/app"
+	comdex "github.com/MonCatCat/comdex/v9/app"
 )
 
 // New creates application instance with in-memory database and disabled logging.

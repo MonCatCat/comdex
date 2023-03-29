@@ -12,10 +12,10 @@ import (
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/cosmos/cosmos-sdk/types/query"
 
-	rewardstypes "github.com/comdex-official/comdex/x/rewards/types"
+	rewardstypes "github.com/MonCatCat/comdex/v9/x/rewards/types"
 
-	"github.com/comdex-official/comdex/x/liquidity/amm"
-	"github.com/comdex-official/comdex/x/liquidity/types"
+	"github.com/MonCatCat/comdex/v9/x/liquidity/amm"
+	"github.com/MonCatCat/comdex/v9/x/liquidity/types"
 )
 
 // Querier is used as Keeper will have duplicate methods if used directly, and gRPC names take precedence over keeper.

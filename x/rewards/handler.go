@@ -6,8 +6,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 
-	"github.com/comdex-official/comdex/x/rewards/keeper"
-	"github.com/comdex-official/comdex/x/rewards/types"
+	"github.com/MonCatCat/comdex/v9/x/rewards/keeper"
+	"github.com/MonCatCat/comdex/v9/x/rewards/types"
 )
 
 // NewHandler ...

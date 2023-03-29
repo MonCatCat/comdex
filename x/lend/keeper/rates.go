@@ -3,8 +3,8 @@ package keeper
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	assettypes "github.com/comdex-official/comdex/x/asset/types"
-	"github.com/comdex-official/comdex/x/lend/types"
+	assettypes "github.com/MonCatCat/comdex/v9/x/asset/types"
+	"github.com/MonCatCat/comdex/v9/x/lend/types"
 )
 
 func (k Keeper) VerifyCollateralizationRatio(

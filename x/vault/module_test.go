@@ -9,12 +9,12 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	chain "github.com/comdex-official/comdex/app"
-	"github.com/comdex-official/comdex/app/wasm/bindings"
-	assettypes "github.com/comdex-official/comdex/x/asset/types"
-	markettypes "github.com/comdex-official/comdex/x/market/types"
-	"github.com/comdex-official/comdex/x/vault/keeper"
-	"github.com/comdex-official/comdex/x/vault/types"
+	chain "github.com/MonCatCat/comdex/v9/app"
+	"github.com/MonCatCat/comdex/v9/app/wasm/bindings"
+	assettypes "github.com/MonCatCat/comdex/v9/x/asset/types"
+	markettypes "github.com/MonCatCat/comdex/v9/x/market/types"
+	"github.com/MonCatCat/comdex/v9/x/vault/keeper"
+	"github.com/MonCatCat/comdex/v9/x/vault/types"
 )
 
 type ModuleTestSuite struct {

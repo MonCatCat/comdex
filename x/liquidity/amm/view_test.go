@@ -7,8 +7,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	utils "github.com/comdex-official/comdex/types"
-	"github.com/comdex-official/comdex/x/liquidity/amm"
+	utils "github.com/MonCatCat/comdex/v9/types"
+	"github.com/MonCatCat/comdex/v9/x/liquidity/amm"
 )
 
 func TestOrderBookView(t *testing.T) {

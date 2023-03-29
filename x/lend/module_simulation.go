@@ -10,9 +10,9 @@ import (
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
 
-	"github.com/comdex-official/comdex/testutil/sample"
-	lendsimulation "github.com/comdex-official/comdex/x/lend/simulation"
-	"github.com/comdex-official/comdex/x/lend/types"
+	"github.com/MonCatCat/comdex/v9/testutil/sample"
+	lendsimulation "github.com/MonCatCat/comdex/v9/x/lend/simulation"
+	"github.com/MonCatCat/comdex/v9/x/lend/types"
 )
 
 // avoid unused import issue.

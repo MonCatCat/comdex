@@ -6,10 +6,10 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	chain "github.com/comdex-official/comdex/app"
-	"github.com/comdex-official/comdex/x/vault/client/cli"
-	vaultKeeper "github.com/comdex-official/comdex/x/vault/keeper"
-	"github.com/comdex-official/comdex/x/vault/types"
+	chain "github.com/MonCatCat/comdex/v9/app"
+	"github.com/MonCatCat/comdex/v9/x/vault/client/cli"
+	vaultKeeper "github.com/MonCatCat/comdex/v9/x/vault/keeper"
+	"github.com/MonCatCat/comdex/v9/x/vault/types"
 
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	servertypes "github.com/cosmos/cosmos-sdk/server/types"

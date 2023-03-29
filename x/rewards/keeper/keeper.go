@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"time"
 
-	assettypes "github.com/comdex-official/comdex/x/asset/types"
-	lendtypes "github.com/comdex-official/comdex/x/lend/types"
-	liquiditytypes "github.com/comdex-official/comdex/x/liquidity/types"
+	assettypes "github.com/MonCatCat/comdex/v9/x/asset/types"
+	lendtypes "github.com/MonCatCat/comdex/v9/x/lend/types"
+	liquiditytypes "github.com/MonCatCat/comdex/v9/x/liquidity/types"
 
-	esmtypes "github.com/comdex-official/comdex/x/esm/types"
-	"github.com/comdex-official/comdex/x/rewards/expected"
+	esmtypes "github.com/MonCatCat/comdex/v9/x/esm/types"
+	"github.com/MonCatCat/comdex/v9/x/rewards/expected"
 
 	"github.com/tendermint/tendermint/libs/log"
 
@@ -17,7 +17,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
 
-	"github.com/comdex-official/comdex/x/rewards/types"
+	"github.com/MonCatCat/comdex/v9/x/rewards/types"
 )
 
 type (

@@ -4,10 +4,10 @@ import (
 	"github.com/cosmos/cosmos-sdk/telemetry"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	utils "github.com/comdex-official/comdex/types"
-	expected "github.com/comdex-official/comdex/x/liquidity/expected"
-	"github.com/comdex-official/comdex/x/liquidity/keeper"
-	"github.com/comdex-official/comdex/x/liquidity/types"
+	utils "github.com/MonCatCat/comdex/v9/types"
+	expected "github.com/MonCatCat/comdex/v9/x/liquidity/expected"
+	"github.com/MonCatCat/comdex/v9/x/liquidity/keeper"
+	"github.com/MonCatCat/comdex/v9/x/liquidity/types"
 )
 
 func BeginBlocker(ctx sdk.Context, k keeper.Keeper, assetKeeper expected.AssetKeeper) {

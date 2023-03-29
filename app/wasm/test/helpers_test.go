@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/comdex-official/comdex/app/wasm/bindings"
-	assetTypes "github.com/comdex-official/comdex/x/asset/types"
-	tokenmintTypes "github.com/comdex-official/comdex/x/tokenmint/types"
+	"github.com/MonCatCat/comdex/v9/app/wasm/bindings"
+	assetTypes "github.com/MonCatCat/comdex/v9/x/asset/types"
+	tokenmintTypes "github.com/MonCatCat/comdex/v9/x/tokenmint/types"
 
 	"github.com/stretchr/testify/require"
 
@@ -17,8 +17,8 @@ import (
 	"github.com/tendermint/tendermint/crypto/ed25519"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/comdex-official/comdex/app"
-	"github.com/comdex-official/comdex/x/tokenmint/keeper"
+	"github.com/MonCatCat/comdex/v9/app"
+	"github.com/MonCatCat/comdex/v9/x/tokenmint/keeper"
 )
 
 func SetupCustomApp() (*app.App, *sdk.Context) {

@@ -1,7 +1,7 @@
 package keeper_test
 
 import (
-	"github.com/comdex-official/comdex/x/vault/types"
+	"github.com/MonCatCat/comdex/v9/x/vault/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	_ "github.com/stretchr/testify/suite"
 	"google.golang.org/grpc/codes"

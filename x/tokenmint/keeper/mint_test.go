@@ -2,9 +2,10 @@ package keeper_test
 
 import (
 	"fmt"
-	assetTypes "github.com/comdex-official/comdex/x/asset/types"
-	"github.com/comdex-official/comdex/x/tokenmint/keeper"
-	tokenmintTypes "github.com/comdex-official/comdex/x/tokenmint/types"
+
+	assetTypes "github.com/MonCatCat/comdex/v9/x/asset/types"
+	"github.com/MonCatCat/comdex/v9/x/tokenmint/keeper"
+	tokenmintTypes "github.com/MonCatCat/comdex/v9/x/tokenmint/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

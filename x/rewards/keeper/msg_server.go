@@ -5,9 +5,9 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	assettypes "github.com/comdex-official/comdex/x/asset/types"
-	esmtypes "github.com/comdex-official/comdex/x/esm/types"
-	"github.com/comdex-official/comdex/x/rewards/types"
+	assettypes "github.com/MonCatCat/comdex/v9/x/asset/types"
+	esmtypes "github.com/MonCatCat/comdex/v9/x/esm/types"
+	"github.com/MonCatCat/comdex/v9/x/rewards/types"
 )
 
 type msgServer struct {

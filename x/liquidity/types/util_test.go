@@ -6,8 +6,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	utils "github.com/comdex-official/comdex/types"
-	"github.com/comdex-official/comdex/x/liquidity/types"
+	utils "github.com/MonCatCat/comdex/v9/types"
+	"github.com/MonCatCat/comdex/v9/x/liquidity/types"
 )
 
 func TestMMOrderTicks(t *testing.T) {

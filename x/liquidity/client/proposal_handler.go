@@ -3,8 +3,8 @@ package client
 import (
 	govclient "github.com/cosmos/cosmos-sdk/x/gov/client"
 
-	"github.com/comdex-official/comdex/x/liquidity/client/cli"
-	"github.com/comdex-official/comdex/x/liquidity/client/rest"
+	"github.com/MonCatCat/comdex/v9/x/liquidity/client/cli"
+	"github.com/MonCatCat/comdex/v9/x/liquidity/client/rest"
 )
 
 var LiquidityProposalHandler = []govclient.ProposalHandler{

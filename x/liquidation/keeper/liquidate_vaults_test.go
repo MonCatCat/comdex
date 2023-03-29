@@ -1,12 +1,12 @@
 package keeper_test
 
 import (
-	"github.com/comdex-official/comdex/app/wasm/bindings"
-	assetTypes "github.com/comdex-official/comdex/x/asset/types"
-	liquidationTypes "github.com/comdex-official/comdex/x/liquidation/types"
-	markettypes "github.com/comdex-official/comdex/x/market/types"
-	vaultKeeper1 "github.com/comdex-official/comdex/x/vault/keeper"
-	vaultTypes "github.com/comdex-official/comdex/x/vault/types"
+	"github.com/MonCatCat/comdex/v9/app/wasm/bindings"
+	assetTypes "github.com/MonCatCat/comdex/v9/x/asset/types"
+	liquidationTypes "github.com/MonCatCat/comdex/v9/x/liquidation/types"
+	markettypes "github.com/MonCatCat/comdex/v9/x/market/types"
+	vaultKeeper1 "github.com/MonCatCat/comdex/v9/x/vault/keeper"
+	vaultTypes "github.com/MonCatCat/comdex/v9/x/vault/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

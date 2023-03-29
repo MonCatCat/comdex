@@ -4,8 +4,8 @@ package keeper
 //import (
 //	"testing"
 //
-//	"github.com/comdex-official/comdex/x/auction/keeper"
-//	"github.com/comdex-official/comdex/x/auction/types"
+//	"github.com/MonCatCat/comdex/v9/x/auction/keeper"
+//	"github.com/MonCatCat/comdex/v9/x/auction/types"
 //	"github.com/cosmos/cosmos-sdk/codec"
 //	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 //	"github.com/cosmos/cosmos-sdk/store"

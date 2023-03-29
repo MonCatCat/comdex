@@ -2,7 +2,8 @@ package types
 
 import (
 	"fmt"
-	"github.com/comdex-official/comdex/x/asset/types"
+
+	"github.com/MonCatCat/comdex/v9/x/asset/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/errors"

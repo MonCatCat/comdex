@@ -33,7 +33,7 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	tmdb "github.com/tendermint/tm-db"
 
-	comdex "github.com/comdex-official/comdex/app"
+	comdex "github.com/MonCatCat/comdex/v9/app"
 )
 
 func NewRootCmd() (*cobra.Command, comdex.EncodingConfig) {
