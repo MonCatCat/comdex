@@ -10,7 +10,7 @@ import (
 	tmtypes "github.com/cometbft/cometbft/types"
 	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
 
-	comdex "github.com/comdex-official/comdex/app"
+	comdex "github.com/MonCatCat/comdex/v13/app"
 )
 
 // New creates application instance with in-memory database and disabled logging.

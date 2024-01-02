@@ -5,7 +5,7 @@ import (
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	protobuftypes "github.com/cosmos/gogoproto/types"
 
-	"github.com/comdex-official/comdex/x/lend/types"
+	"github.com/MonCatCat/comdex/v13/x/lend/types"
 )
 
 func (k Keeper) AddLendPairsRecords(ctx sdk.Context, records ...types.Extended_Pair) error {

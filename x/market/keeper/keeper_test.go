@@ -2,9 +2,10 @@ package keeper
 
 import (
 	"fmt"
-	rewardtypes "github.com/comdex-official/comdex/x/rewards/types"
 	"math"
 	"testing"
+
+	rewardtypes "github.com/MonCatCat/comdex/v13/x/rewards/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

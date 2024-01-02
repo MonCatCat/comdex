@@ -3,7 +3,7 @@ package cli
 import (
 	"context"
 
-	"github.com/comdex-official/comdex/x/liquidationsV2/types"
+	"github.com/MonCatCat/comdex/v13/x/liquidationsV2/types"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/spf13/cobra"

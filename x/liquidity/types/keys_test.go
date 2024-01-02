@@ -8,7 +8,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/comdex-official/comdex/x/liquidity/types"
+	"github.com/MonCatCat/comdex/v13/x/liquidity/types"
 )
 
 type keysTestSuite struct {

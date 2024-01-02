@@ -23,7 +23,7 @@ Send your detailed vulnerability report to `security@comdex.one`.
 
 ### 2. GitHub Private Vulnerability Reporting
 
-Utilize [GitHub's Private Vulnerability Reporting](https://github.com/comdex-official/comdex/security/advisories/new) for confidential disclosure.
+Utilize [GitHub's Private Vulnerability Reporting](https://github.com/MonCatCat/comdex/v13/security/advisories/new) for confidential disclosure.
 
 ## Submit Vulnerability Report
 

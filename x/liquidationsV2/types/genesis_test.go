@@ -3,7 +3,7 @@ package types_test
 import (
 	"testing"
 
-	"github.com/comdex-official/comdex/x/liquidationsV2/types"
+	"github.com/MonCatCat/comdex/v13/x/liquidationsV2/types"
 	"github.com/stretchr/testify/require"
 )
 

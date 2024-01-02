@@ -1,11 +1,11 @@
 package auctionsV2
 
 import (
-	utils "github.com/comdex-official/comdex/types"
-	"github.com/comdex-official/comdex/x/auctionsV2/types"
+	utils "github.com/MonCatCat/comdex/v13/types"
+	"github.com/MonCatCat/comdex/v13/x/auctionsV2/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/comdex-official/comdex/x/auctionsV2/keeper"
+	"github.com/MonCatCat/comdex/v13/x/auctionsV2/keeper"
 )
 
 func BeginBlocker(ctx sdk.Context, k keeper.Keeper) {

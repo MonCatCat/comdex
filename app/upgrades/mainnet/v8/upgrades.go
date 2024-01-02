@@ -3,12 +3,12 @@ package v8
 import (
 	"fmt"
 
-	"github.com/comdex-official/comdex/app/wasm/bindings"
-	assetkeeper "github.com/comdex-official/comdex/x/asset/keeper"
-	assettypes "github.com/comdex-official/comdex/x/asset/types"
-	auctionkeeper "github.com/comdex-official/comdex/x/auction/keeper"
-	lendkeeper "github.com/comdex-official/comdex/x/lend/keeper"
-	"github.com/comdex-official/comdex/x/lend/types"
+	"github.com/MonCatCat/comdex/v13/app/wasm/bindings"
+	assetkeeper "github.com/MonCatCat/comdex/v13/x/asset/keeper"
+	assettypes "github.com/MonCatCat/comdex/v13/x/asset/types"
+	auctionkeeper "github.com/MonCatCat/comdex/v13/x/auction/keeper"
+	lendkeeper "github.com/MonCatCat/comdex/v13/x/lend/keeper"
+	"github.com/MonCatCat/comdex/v13/x/lend/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"

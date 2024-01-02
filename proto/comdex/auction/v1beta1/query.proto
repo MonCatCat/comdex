@@ -7,7 +7,7 @@ import "comdex/auction/v1beta1/auction.proto";
 import "comdex/auction/v1beta1/biddings.proto";
 import "cosmos/base/query/v1beta1/pagination.proto";
 
-option go_package = "github.com/comdex-official/comdex/x/auction/types";
+option go_package = "github.com/MonCatCat/comdex/v13/x/auction/types";
 option (gogoproto.equal_all) = false;
 option (gogoproto.goproto_getters_all) = false;
 

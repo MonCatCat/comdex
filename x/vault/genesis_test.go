@@ -3,9 +3,9 @@ package vault_test
 import (
 	"testing"
 
-	"github.com/comdex-official/comdex/app"
-	"github.com/comdex-official/comdex/x/vault"
-	"github.com/comdex-official/comdex/x/vault/types"
+	"github.com/MonCatCat/comdex/v13/app"
+	"github.com/MonCatCat/comdex/v13/x/vault"
+	"github.com/MonCatCat/comdex/v13/x/vault/types"
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
 	"github.com/stretchr/testify/require"
 )

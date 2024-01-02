@@ -5,7 +5,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/comdex-official/comdex/x/liquidity/types"
+	"github.com/MonCatCat/comdex/v13/x/liquidity/types"
 )
 
 // RegisterInvariants registers all liquidity module invariants.

@@ -5,8 +5,8 @@ import (
 
 	"github.com/cometbft/cometbft/libs/log"
 
-	"github.com/comdex-official/comdex/x/liquidationsV2/expected"
-	"github.com/comdex-official/comdex/x/liquidationsV2/types"
+	"github.com/MonCatCat/comdex/v13/x/liquidationsV2/expected"
+	"github.com/MonCatCat/comdex/v13/x/liquidationsV2/types"
 
 	"github.com/cosmos/cosmos-sdk/codec"
 	storetypes "github.com/cosmos/cosmos-sdk/store/types"

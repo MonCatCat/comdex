@@ -9,8 +9,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
 
-	"github.com/comdex-official/comdex/x/liquidation/expected"
-	"github.com/comdex-official/comdex/x/liquidation/types"
+	"github.com/MonCatCat/comdex/v13/x/liquidation/expected"
+	"github.com/MonCatCat/comdex/v13/x/liquidation/types"
 	storetypes "github.com/cosmos/cosmos-sdk/store/types"
 )
 

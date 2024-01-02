@@ -7,7 +7,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/spf13/cobra"
 
-	"github.com/comdex-official/comdex/x/collector/types"
+	"github.com/MonCatCat/comdex/v13/x/collector/types"
 )
 
 // CmdQueryParams Return params for the collector store.

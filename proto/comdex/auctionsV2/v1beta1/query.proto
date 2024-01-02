@@ -8,7 +8,7 @@ import "comdex/auctionsV2/v1beta1/params.proto";
 import "comdex/auctionsV2/v1beta1/auction.proto";
 import "comdex/auctionsV2/v1beta1/bid.proto";
 
-option go_package = "github.com/comdex-official/comdex/x/auctionsV2/types";
+option go_package = "github.com/MonCatCat/comdex/v13/x/auctionsV2/types";
 
 message QueryParamsRequest {}
 

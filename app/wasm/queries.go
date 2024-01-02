@@ -1,17 +1,17 @@
 package wasm
 
 import (
-	assetKeeper "github.com/comdex-official/comdex/x/asset/keeper"
-	collectorkeeper "github.com/comdex-official/comdex/x/collector/keeper"
-	esmKeeper "github.com/comdex-official/comdex/x/esm/keeper"
-	lendKeeper "github.com/comdex-official/comdex/x/lend/keeper"
-	liquidationKeeper "github.com/comdex-official/comdex/x/liquidation/keeper"
-	liquidityKeeper "github.com/comdex-official/comdex/x/liquidity/keeper"
-	lockerkeeper "github.com/comdex-official/comdex/x/locker/keeper"
-	marketKeeper "github.com/comdex-official/comdex/x/market/keeper"
-	rewardsKeeper "github.com/comdex-official/comdex/x/rewards/keeper"
-	tokenMintKeeper "github.com/comdex-official/comdex/x/tokenmint/keeper"
-	vaultKeeper "github.com/comdex-official/comdex/x/vault/keeper"
+	assetKeeper "github.com/MonCatCat/comdex/v13/x/asset/keeper"
+	collectorkeeper "github.com/MonCatCat/comdex/v13/x/collector/keeper"
+	esmKeeper "github.com/MonCatCat/comdex/v13/x/esm/keeper"
+	lendKeeper "github.com/MonCatCat/comdex/v13/x/lend/keeper"
+	liquidationKeeper "github.com/MonCatCat/comdex/v13/x/liquidation/keeper"
+	liquidityKeeper "github.com/MonCatCat/comdex/v13/x/liquidity/keeper"
+	lockerkeeper "github.com/MonCatCat/comdex/v13/x/locker/keeper"
+	marketKeeper "github.com/MonCatCat/comdex/v13/x/market/keeper"
+	rewardsKeeper "github.com/MonCatCat/comdex/v13/x/rewards/keeper"
+	tokenMintKeeper "github.com/MonCatCat/comdex/v13/x/tokenmint/keeper"
+	vaultKeeper "github.com/MonCatCat/comdex/v13/x/vault/keeper"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 
@@ -209,7 +209,7 @@ func (qp QueryPlugin) WasmGetPools(ctx sdk.Context, appID uint64) (pools []uint6
 
 func (qp QueryPlugin) WasmGetAssetPrice(ctx sdk.Context, assetID uint64) (twa uint64, found bool) {
 	assetTwa, found := qp.marketKeeper.GetTwa(ctx, assetID)
-	if found && assetTwa.IsPriceActive{
+	if found && assetTwa.IsPriceActive {
 		return assetTwa.Twa, true
 	}
 	return 0, false

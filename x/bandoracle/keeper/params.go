@@ -7,7 +7,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/comdex-official/comdex/x/bandoracle/types"
+	"github.com/MonCatCat/comdex/v13/x/bandoracle/types"
 )
 
 func (k Keeper) GetParams(ctx sdk.Context) types.Params {

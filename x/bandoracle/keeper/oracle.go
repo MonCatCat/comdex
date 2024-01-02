@@ -13,7 +13,7 @@ import (
 	protobuftypes "github.com/cosmos/gogoproto/types"
 	host "github.com/cosmos/ibc-go/v7/modules/core/24-host"
 
-	"github.com/comdex-official/comdex/x/bandoracle/types"
+	"github.com/MonCatCat/comdex/v13/x/bandoracle/types"
 )
 
 func (k Keeper) SetFetchPriceResult(ctx sdk.Context, requestID types.OracleRequestID, result types.FetchPriceResult) {

@@ -6,7 +6,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/comdex-official/comdex/x/lend/types"
+	"github.com/MonCatCat/comdex/v13/x/lend/types"
 )
 
 type msgServer struct {

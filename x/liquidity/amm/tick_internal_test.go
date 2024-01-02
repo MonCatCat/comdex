@@ -7,7 +7,7 @@ import (
 
 	sdkmath "cosmossdk.io/math"
 
-	utils "github.com/comdex-official/comdex/types"
+	utils "github.com/MonCatCat/comdex/v13/types"
 )
 
 func Test_char(t *testing.T) {

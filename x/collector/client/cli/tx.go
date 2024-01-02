@@ -2,11 +2,12 @@ package cli
 
 import (
 	"fmt"
-	"github.com/comdex-official/comdex/x/collector/types"
+	"strconv"
+
+	"github.com/MonCatCat/comdex/v13/x/collector/types"
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/cosmos/cosmos-sdk/client/tx"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"strconv"
 
 	"github.com/spf13/cobra"
 

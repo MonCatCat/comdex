@@ -2,7 +2,8 @@ package keeper
 
 import (
 	"context"
-	"github.com/comdex-official/comdex/x/liquidationsV2/types"
+
+	"github.com/MonCatCat/comdex/v13/x/liquidationsV2/types"
 	"github.com/cosmos/cosmos-sdk/store/prefix"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/query"

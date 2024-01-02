@@ -3,8 +3,8 @@ package keeper_test
 // import (
 // 	"testing"
 
-// 	testkeeper "github.com/comdex-official/comdex/testutil/keeper"
-// 	"github.com/comdex-official/comdex/x/liquidationsV2/types"
+// 	testkeeper "github.com/MonCatCat/comdex/v13/testutil/keeper"
+// 	"github.com/MonCatCat/comdex/v13/x/liquidationsV2/types"
 // 	"github.com/stretchr/testify/require"
 // )
 

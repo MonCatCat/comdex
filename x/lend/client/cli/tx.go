@@ -14,7 +14,7 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/client"
 
-	"github.com/comdex-official/comdex/x/lend/types"
+	"github.com/MonCatCat/comdex/v13/x/lend/types"
 )
 
 // GetTxCmd returns the transaction commands for this module.
@@ -1406,7 +1406,7 @@ func CmdDepreciatePoolsProposal() *cobra.Command {
 			if err != nil {
 				return err
 			}
-			txf =txf.WithTxConfig(clientCtx.TxConfig).WithAccountRetriever(clientCtx.AccountRetriever)
+			txf = txf.WithTxConfig(clientCtx.TxConfig).WithAccountRetriever(clientCtx.AccountRetriever)
 
 			txf, msg, err := NewDepreciatePools(clientCtx, txf, cmd.Flags())
 			if err != nil {
@@ -1468,7 +1468,7 @@ func CmdAddEModePairsProposal() *cobra.Command {
 			if err != nil {
 				return err
 			}
-			txf =txf.WithTxConfig(clientCtx.TxConfig).WithAccountRetriever(clientCtx.AccountRetriever)
+			txf = txf.WithTxConfig(clientCtx.TxConfig).WithAccountRetriever(clientCtx.AccountRetriever)
 
 			txf, msg, err := NewAddEModePairs(clientCtx, txf, cmd.Flags())
 			if err != nil {

@@ -1,7 +1,7 @@
 package keeper_test
 
 import (
-	"github.com/comdex-official/comdex/app/wasm/bindings"
+	"github.com/MonCatCat/comdex/v13/app/wasm/bindings"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

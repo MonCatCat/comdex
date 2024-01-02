@@ -17,10 +17,10 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
 
-	"github.com/comdex-official/comdex/x/auction/client/cli"
-	"github.com/comdex-official/comdex/x/auction/expected"
-	"github.com/comdex-official/comdex/x/auction/keeper"
-	"github.com/comdex-official/comdex/x/auction/types"
+	"github.com/MonCatCat/comdex/v13/x/auction/client/cli"
+	"github.com/MonCatCat/comdex/v13/x/auction/expected"
+	"github.com/MonCatCat/comdex/v13/x/auction/keeper"
+	"github.com/MonCatCat/comdex/v13/x/auction/types"
 )
 
 var (

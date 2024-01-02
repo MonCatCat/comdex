@@ -5,9 +5,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/telemetry"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	utils "github.com/comdex-official/comdex/types"
-	"github.com/comdex-official/comdex/x/rewards/keeper"
-	"github.com/comdex-official/comdex/x/rewards/types"
+	utils "github.com/MonCatCat/comdex/v13/types"
+	"github.com/MonCatCat/comdex/v13/x/rewards/keeper"
+	"github.com/MonCatCat/comdex/v13/x/rewards/types"
 )
 
 func BeginBlocker(ctx sdk.Context, _ abci.RequestBeginBlock, k keeper.Keeper) {

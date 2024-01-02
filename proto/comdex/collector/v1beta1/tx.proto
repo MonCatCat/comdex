@@ -4,7 +4,7 @@ package comdex.collector.v1beta1;
 import "cosmos/base/v1beta1/coin.proto";
 import "gogoproto/gogo.proto";
 
-option go_package = "github.com/comdex-official/comdex/x/collector/types";
+option go_package = "github.com/MonCatCat/comdex/v13/x/collector/types";
 
 // Msg defines the Msg service.
 service Msg {

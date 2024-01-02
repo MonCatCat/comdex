@@ -23,6 +23,6 @@ done
 cd ..
 
 # move proto files to the right places
-cp -r github.com/comdex-official/comdex/* ./
+cp -r github.com/MonCatCat/comdex/v13/* ./
 rm -rf github.com
 go mod tidy

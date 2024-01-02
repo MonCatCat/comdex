@@ -1,9 +1,9 @@
 package v5_0_0 //nolint:revive,stylecheck
 
 import (
-	lendkeeper "github.com/comdex-official/comdex/x/lend/keeper"
-	liquidationkeeper "github.com/comdex-official/comdex/x/liquidation/keeper"
-	vaultkeeper "github.com/comdex-official/comdex/x/vault/keeper"
+	lendkeeper "github.com/MonCatCat/comdex/v13/x/lend/keeper"
+	liquidationkeeper "github.com/MonCatCat/comdex/v13/x/liquidation/keeper"
+	vaultkeeper "github.com/MonCatCat/comdex/v13/x/vault/keeper"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"

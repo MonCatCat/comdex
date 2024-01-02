@@ -9,7 +9,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/comdex-official/comdex/x/liquidity/types"
+	"github.com/MonCatCat/comdex/v13/x/liquidity/types"
 )
 
 // GetParams returns the parameters for the liquidity module.

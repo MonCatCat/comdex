@@ -5,9 +5,9 @@ package v13_test
 
 // 	"github.com/stretchr/testify/suite"
 
-// 	"github.com/comdex-official/comdex/app"
+// 	"github.com/MonCatCat/comdex/v13/app"
 // 	wasmtypes "github.com/CosmWasm/wasmd/x/wasm/types"
-// 	v13 "github.com/comdex-official/comdex/app/upgrades/testnet/v13"
+// 	v13 "github.com/MonCatCat/comdex/v13/app/upgrades/testnet/v13"
 // )
 
 // type UpgradeTestSuite struct {

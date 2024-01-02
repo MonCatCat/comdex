@@ -4,8 +4,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 
-	rewardstypes "github.com/comdex-official/comdex/x/rewards/types"
-	vaulttypes "github.com/comdex-official/comdex/x/vault/types"
+	rewardstypes "github.com/MonCatCat/comdex/v13/x/rewards/types"
+	vaulttypes "github.com/MonCatCat/comdex/v13/x/vault/types"
 )
 
 type AccountKeeper interface {

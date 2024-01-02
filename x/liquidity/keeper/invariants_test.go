@@ -1,9 +1,9 @@
 package keeper_test
 
 import (
-	utils "github.com/comdex-official/comdex/types"
-	"github.com/comdex-official/comdex/x/liquidity/keeper"
-	"github.com/comdex-official/comdex/x/liquidity/types"
+	utils "github.com/MonCatCat/comdex/v13/types"
+	"github.com/MonCatCat/comdex/v13/x/liquidity/keeper"
+	"github.com/MonCatCat/comdex/v13/x/liquidity/types"
 	_ "github.com/stretchr/testify/suite"
 )
 

@@ -8,8 +8,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 
-	esmtypes "github.com/comdex-official/comdex/x/esm/types"
-	"github.com/comdex-official/comdex/x/rewards/types"
+	esmtypes "github.com/MonCatCat/comdex/v13/x/esm/types"
+	"github.com/MonCatCat/comdex/v13/x/rewards/types"
 )
 
 func (k Keeper) DistributeExtRewardLocker(ctx sdk.Context) error {
@@ -59,8 +59,8 @@ func (k Keeper) DistributeExtRewardLocker(ctx sdk.Context) error {
 							}
 						}
 						userShare := (sdk.NewDec(locker.NetBalance.Int64())).Quo(sdk.NewDec(totalShare.Int64())) // getting share percentage
-						availableRewards := v.AvailableRewards                           // Available Rewards
-						Duration := v.DurationDays - int64(epoch.Count)                  // duration left (total duration - current count)
+						availableRewards := v.AvailableRewards                                                   // Available Rewards
+						Duration := v.DurationDays - int64(epoch.Count)                                          // duration left (total duration - current count)
 
 						epochRewards := sdk.NewDec(availableRewards.Amount.Int64()).Quo(sdk.NewDec(Duration))
 						dailyRewards := userShare.Mul(epochRewards)
@@ -140,7 +140,7 @@ func (k Keeper) DistributeExtRewardVault(ctx sdk.Context) error {
 							}
 						}
 						individualUserShare := sdk.NewDec(userVault.AmountOut.Int64()).Quo(sdk.NewDecFromInt(appExtPairVaultData.TokenMintedAmount)) // getting share percentage
-						Duration := v.DurationDays - int64(epoch.Count)                                                                  // duration left (total duration - current count)
+						Duration := v.DurationDays - int64(epoch.Count)                                                                              // duration left (total duration - current count)
 						epochRewards := (sdk.NewDec(totalRewards.Amount.Int64())).Quo(sdk.NewDec(Duration))
 						dailyRewards := individualUserShare.Mul(epochRewards)
 						finalDailyRewards := dailyRewards.TruncateInt()
@@ -454,7 +454,7 @@ func (k Keeper) DistributeExtRewardStableVault(ctx sdk.Context) error {
 						}
 
 						individualUserShare := sdk.NewDec(eligibleRewardAmt.Int64()).Quo(sdk.NewDecFromInt(totalMintedData)) // getting share percentage
-						Duration := extRew.DurationDays - int64(epoch.Count)                                     // duration left (total duration - current count)
+						Duration := extRew.DurationDays - int64(epoch.Count)                                                 // duration left (total duration - current count)
 						epochRewards := (sdk.NewDec(totalRewards.Amount.Int64())).Quo(sdk.NewDec(Duration))
 						dailyRewards := individualUserShare.Mul(epochRewards)
 						finalDailyRewards := dailyRewards.TruncateInt()

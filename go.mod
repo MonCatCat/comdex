@@ -1,4 +1,4 @@
-module github.com/comdex-official/comdex
+module github.com/MonCatCat/comdex/v13
 
 go 1.20
 

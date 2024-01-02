@@ -1,7 +1,7 @@
 package keeper
 
 import (
-	"github.com/comdex-official/comdex/x/liquidationsV2/types"
+	"github.com/MonCatCat/comdex/v13/x/liquidationsV2/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	_ "github.com/cosmos/cosmos-sdk/x/params/types"
 )

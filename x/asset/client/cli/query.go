@@ -11,7 +11,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/version"
 	"github.com/spf13/cobra"
 
-	"github.com/comdex-official/comdex/x/asset/types"
+	"github.com/MonCatCat/comdex/v13/x/asset/types"
 )
 
 // queryParams implements the params query command.

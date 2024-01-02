@@ -3,7 +3,7 @@ package keeper
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/comdex-official/comdex/x/liquidation/types"
+	"github.com/MonCatCat/comdex/v13/x/liquidation/types"
 )
 
 // SetLiquidationOffsetHolder stores the LiquidationOffsetHolder.

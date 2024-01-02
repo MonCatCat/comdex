@@ -5,7 +5,7 @@ import "gogoproto/gogo.proto";
 import "comdex/liquidation/v1beta1/params.proto";
 import "comdex/liquidation/v1beta1/locked_vault.proto";
 
-option go_package = "github.com/comdex-official/comdex/x/liquidation/types";
+option go_package = "github.com/MonCatCat/comdex/v13/x/liquidation/types";
 
 message GenesisState {
   repeated LockedVault lockedVault = 1

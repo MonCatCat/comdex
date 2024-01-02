@@ -3,11 +3,11 @@ package tokenmint_test
 import (
 	"testing"
 
-	"github.com/comdex-official/comdex/app"
-	"github.com/comdex-official/comdex/x/tokenmint"
+	"github.com/MonCatCat/comdex/v13/app"
+	"github.com/MonCatCat/comdex/v13/x/tokenmint"
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
 
-	"github.com/comdex-official/comdex/x/tokenmint/types"
+	"github.com/MonCatCat/comdex/v13/x/tokenmint/types"
 	"github.com/stretchr/testify/require"
 )
 

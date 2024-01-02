@@ -1,7 +1,7 @@
 package keeper
 
 import (
-	"github.com/comdex-official/comdex/x/liquidationsV2/types"
+	"github.com/MonCatCat/comdex/v13/x/liquidationsV2/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 
@@ -16,7 +16,7 @@ func (k Keeper) SetLiquidationOffsetHolder(ctx sdk.Context, liquidatonPrefix str
 }
 
 // GetLiquidationOffsetHolder returns liquidationOffsetHolder object for the given app id, pool id and farmer.
-func (k Keeper) GetLiquidationOffsetHolder(ctx sdk.Context,  liquidatonPrefix string,offsetCounterId uint64) (liquidationOffsetHolder types.LiquidationOffsetHolder, found bool) {
+func (k Keeper) GetLiquidationOffsetHolder(ctx sdk.Context, liquidatonPrefix string, offsetCounterId uint64) (liquidationOffsetHolder types.LiquidationOffsetHolder, found bool) {
 	store := ctx.KVStore(k.storeKey)
 	bz := store.Get(types.GetLiquidationOffsetHolderKey(offsetCounterId, liquidatonPrefix))
 	if bz == nil {

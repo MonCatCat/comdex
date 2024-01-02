@@ -6,7 +6,7 @@ import "comdex/auction/v1beta1/params.proto";
 import "comdex/auction/v1beta1/auction.proto";
 import "comdex/auction/v1beta1/biddings.proto";
 
-option go_package = "github.com/comdex-official/comdex/x/auction/types";
+option go_package = "github.com/MonCatCat/comdex/v13/x/auction/types";
 
 message GenesisState {
   repeated SurplusAuction surplusAuction = 1

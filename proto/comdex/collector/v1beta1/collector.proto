@@ -5,7 +5,7 @@ import "gogoproto/gogo.proto";
 import "google/protobuf/timestamp.proto";
 
 
-option go_package = "github.com/comdex-official/comdex/x/collector/types";
+option go_package = "github.com/MonCatCat/comdex/v13/x/collector/types";
 
 message CollectorData {
   string collected_stability_fee = 1 [

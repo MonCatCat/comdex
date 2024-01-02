@@ -13,9 +13,9 @@ import (
 
 	abci "github.com/cometbft/cometbft/abci/types"
 
-	"github.com/comdex-official/comdex/x/liquidationsV2/client/cli"
-	"github.com/comdex-official/comdex/x/liquidationsV2/keeper"
-	"github.com/comdex-official/comdex/x/liquidationsV2/types"
+	"github.com/MonCatCat/comdex/v13/x/liquidationsV2/client/cli"
+	"github.com/MonCatCat/comdex/v13/x/liquidationsV2/keeper"
+	"github.com/MonCatCat/comdex/v13/x/liquidationsV2/types"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/codec"
 	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"

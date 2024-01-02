@@ -3,10 +3,10 @@ package keeper_test
 import (
 	"testing"
 
-	"github.com/comdex-official/comdex/app"
+	"github.com/MonCatCat/comdex/v13/app"
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
 
-	"github.com/comdex-official/comdex/x/collector/types"
+	"github.com/MonCatCat/comdex/v13/x/collector/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 )

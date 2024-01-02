@@ -5,7 +5,7 @@ import "gogoproto/gogo.proto";
 import "google/protobuf/timestamp.proto";
 import "cosmos/base/v1beta1/coin.proto";
 
-option go_package = "github.com/comdex-official/comdex/x/rewards/types";
+option go_package = "github.com/MonCatCat/comdex/v13/x/rewards/types";
 
 message InternalRewards{
   uint64 app_mapping_id = 1 [

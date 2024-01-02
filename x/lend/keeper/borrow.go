@@ -4,7 +4,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	protobuftypes "github.com/cosmos/gogoproto/types"
 
-	"github.com/comdex-official/comdex/x/lend/types"
+	"github.com/MonCatCat/comdex/v13/x/lend/types"
 )
 
 func (k Keeper) SetUserBorrowIDCounter(ctx sdk.Context, ID uint64) {

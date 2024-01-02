@@ -7,11 +7,11 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
+	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
 
-	"github.com/comdex-official/comdex/x/collector/expected"
-	"github.com/comdex-official/comdex/x/collector/types"
+	"github.com/MonCatCat/comdex/v13/x/collector/expected"
+	"github.com/MonCatCat/comdex/v13/x/collector/types"
 	storetypes "github.com/cosmos/cosmos-sdk/store/types"
 )
 

@@ -3,7 +3,7 @@ package types_test
 import (
 	"testing"
 
-	"github.com/comdex-official/comdex/x/auctionsV2/types"
+	"github.com/MonCatCat/comdex/v13/x/auctionsV2/types"
 	"github.com/stretchr/testify/require"
 )
 
@@ -19,7 +19,7 @@ func TestGenesisState_Validate(t *testing.T) {
 			valid:    true,
 		},
 		{
-			desc: "valid genesis state",
+			desc:     "valid genesis state",
 			genState: &types.GenesisState{
 
 				// this line is used by starport scaffolding # types/genesis/validField

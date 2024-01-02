@@ -12,7 +12,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/tx"
 
-	"github.com/comdex-official/comdex/x/liquidation/types"
+	"github.com/MonCatCat/comdex/v13/x/liquidation/types"
 )
 
 func GetTxCmd() *cobra.Command {

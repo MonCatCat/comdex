@@ -3,7 +3,7 @@ package comdex.esm.v1beta1;
 
 import "gogoproto/gogo.proto";
 
-option go_package = "github.com/comdex-official/comdex/x/esm/types";
+option go_package = "github.com/MonCatCat/comdex/v13/x/esm/types";
 
 message Params {
    repeated string admin  = 1 [ (gogoproto.moretags) = "yaml:\"admin\"" ];

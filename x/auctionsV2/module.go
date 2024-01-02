@@ -13,10 +13,10 @@ import (
 
 	abci "github.com/cometbft/cometbft/abci/types"
 
-	"github.com/comdex-official/comdex/x/auctionsV2/client/cli"
-	"github.com/comdex-official/comdex/x/auctionsV2/expected"
-	"github.com/comdex-official/comdex/x/auctionsV2/keeper"
-	"github.com/comdex-official/comdex/x/auctionsV2/types"
+	"github.com/MonCatCat/comdex/v13/x/auctionsV2/client/cli"
+	"github.com/MonCatCat/comdex/v13/x/auctionsV2/expected"
+	"github.com/MonCatCat/comdex/v13/x/auctionsV2/keeper"
+	"github.com/MonCatCat/comdex/v13/x/auctionsV2/types"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/codec"
 	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"

@@ -8,7 +8,7 @@ import (
 
 	sdkmath "cosmossdk.io/math"
 
-	utils "github.com/comdex-official/comdex/types"
+	utils "github.com/MonCatCat/comdex/v13/types"
 )
 
 func newOrder(dir OrderDirection, price sdkmath.LegacyDec, amt sdkmath.Int) *BaseOrder {

@@ -5,9 +5,9 @@ import (
 
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
 
-	app "github.com/comdex-official/comdex/app"
-	"github.com/comdex-official/comdex/x/collector"
-	"github.com/comdex-official/comdex/x/collector/types"
+	app "github.com/MonCatCat/comdex/v13/app"
+	"github.com/MonCatCat/comdex/v13/x/collector"
+	"github.com/MonCatCat/comdex/v13/x/collector/types"
 	"github.com/stretchr/testify/require"
 )
 

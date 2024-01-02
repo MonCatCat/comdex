@@ -33,8 +33,7 @@ import (
 	slashingtypes "github.com/cosmos/cosmos-sdk/x/slashing/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
-
-	// "github.com/comdex-official/comdex/app"
+	// "github.com/MonCatCat/comdex/v13/app"
 )
 
 type KeeperTestHelper struct {

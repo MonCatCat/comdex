@@ -3,7 +3,7 @@ package comdex.bandoracle.v1beta1;
 
 import "gogoproto/gogo.proto";
 
-option go_package = "github.com/comdex-official/comdex/x/bandoracle/types";
+option go_package = "github.com/MonCatCat/comdex/v13/x/bandoracle/types";
 option (gogoproto.equal_all)           = false;
 option (gogoproto.goproto_getters_all) = false;
 

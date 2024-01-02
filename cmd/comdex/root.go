@@ -5,6 +5,7 @@ import (
 	"io"
 	"os"
 	"path/filepath"
+
 	// "time"
 
 	"github.com/CosmWasm/wasmd/x/wasm"
@@ -42,7 +43,7 @@ import (
 	"github.com/spf13/cast"
 	"github.com/spf13/cobra"
 
-	comdex "github.com/comdex-official/comdex/app"
+	comdex "github.com/MonCatCat/comdex/v13/app"
 )
 
 func NewRootCmd() (*cobra.Command, comdex.EncodingConfig) {
@@ -131,7 +132,7 @@ func initAppConfig() (string, interface{}) {
 func initRootCmd(rootCmd *cobra.Command, encoding comdex.EncodingConfig) {
 	cfg := sdk.GetConfig()
 	cfg.Seal()
-	
+
 	gentxModule := comdex.ModuleBasics[genutiltypes.ModuleName].(genutil.AppModuleBasic)
 	rootCmd.AddCommand(
 		genutilcli.InitCmd(comdex.ModuleBasics, comdex.DefaultNodeHome),

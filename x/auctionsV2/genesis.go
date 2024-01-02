@@ -1,8 +1,8 @@
 package auctionsV2
 
 import (
-	"github.com/comdex-official/comdex/x/auctionsV2/keeper"
-	"github.com/comdex-official/comdex/x/auctionsV2/types"
+	"github.com/MonCatCat/comdex/v13/x/auctionsV2/keeper"
+	"github.com/MonCatCat/comdex/v13/x/auctionsV2/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

@@ -1,7 +1,6 @@
 package rewards
 
 import (
-
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	simappparams "github.com/cosmos/cosmos-sdk/testutil/sims"
 	sdk "github.com/cosmos/cosmos-sdk/types"
@@ -9,9 +8,9 @@ import (
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
 
-	"github.com/comdex-official/comdex/testutil/sample"
-	rewardssimulation "github.com/comdex-official/comdex/x/rewards/simulation"
-	"github.com/comdex-official/comdex/x/rewards/types"
+	"github.com/MonCatCat/comdex/v13/testutil/sample"
+	rewardssimulation "github.com/MonCatCat/comdex/v13/x/rewards/simulation"
+	"github.com/MonCatCat/comdex/v13/x/rewards/types"
 )
 
 // avoid unused import issue.

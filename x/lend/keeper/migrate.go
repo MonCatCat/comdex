@@ -1,8 +1,8 @@
 package keeper
 
 import (
-	migrationtypes "github.com/comdex-official/comdex/x/lend/migrations/v2/types"
-	"github.com/comdex-official/comdex/x/lend/types"
+	migrationtypes "github.com/MonCatCat/comdex/v13/x/lend/migrations/v2/types"
+	"github.com/MonCatCat/comdex/v13/x/lend/types"
 	"github.com/cosmos/cosmos-sdk/codec"
 	storetypes "github.com/cosmos/cosmos-sdk/store/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"

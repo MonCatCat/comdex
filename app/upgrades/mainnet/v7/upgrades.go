@@ -3,9 +3,9 @@ package v7
 import (
 	"fmt"
 
-	auctiontypes "github.com/comdex-official/comdex/x/auction/types"
-	lendkeeper "github.com/comdex-official/comdex/x/lend/keeper"
-	"github.com/comdex-official/comdex/x/lend/types"
+	auctiontypes "github.com/MonCatCat/comdex/v13/x/auction/types"
+	lendkeeper "github.com/MonCatCat/comdex/v13/x/lend/keeper"
+	"github.com/MonCatCat/comdex/v13/x/lend/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
 	bankkeeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"

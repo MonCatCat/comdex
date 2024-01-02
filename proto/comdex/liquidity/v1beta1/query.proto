@@ -10,7 +10,7 @@ import "comdex/liquidity/v1beta1/params.proto";
 import "google/protobuf/timestamp.proto";
 import "google/protobuf/duration.proto";
 
-option go_package = "github.com/comdex-official/comdex/x/liquidity/types";
+option go_package = "github.com/MonCatCat/comdex/v13/x/liquidity/types";
 
 // QueryParamsRequest is request type for the Query/Params RPC method.
 message QueryParamsRequest {}

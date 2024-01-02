@@ -6,10 +6,10 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	protobuftypes "github.com/cosmos/gogoproto/types"
 
-	"github.com/comdex-official/comdex/app/wasm/bindings"
-	rewardstypes "github.com/comdex-official/comdex/x/rewards/types"
+	"github.com/MonCatCat/comdex/v13/app/wasm/bindings"
+	rewardstypes "github.com/MonCatCat/comdex/v13/x/rewards/types"
 
-	"github.com/comdex-official/comdex/x/asset/types"
+	"github.com/MonCatCat/comdex/v13/x/asset/types"
 )
 
 func (k Keeper) GetPairsVaultID(ctx sdk.Context) uint64 {

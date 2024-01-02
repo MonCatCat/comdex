@@ -1,7 +1,6 @@
 package bandoracle
 
 import (
-
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	capabilitytypes "github.com/cosmos/cosmos-sdk/x/capability/types"
@@ -10,7 +9,7 @@ import (
 	host "github.com/cosmos/ibc-go/v7/modules/core/24-host"
 	ibcexported "github.com/cosmos/ibc-go/v7/modules/core/exported"
 
-	"github.com/comdex-official/comdex/x/bandoracle/types"
+	"github.com/MonCatCat/comdex/v13/x/bandoracle/types"
 )
 
 // OnChanOpenInit implements the IBCModule interface.

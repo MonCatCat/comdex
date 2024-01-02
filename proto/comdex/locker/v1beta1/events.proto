@@ -2,5 +2,5 @@ syntax = "proto3";
 
 package comdex.locker.v1beta1;
 
-option go_package = "github.com/comdex-official/comdex/x/locker/types";
+option go_package = "github.com/MonCatCat/comdex/v13/x/locker/types";
 

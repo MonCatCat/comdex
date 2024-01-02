@@ -5,7 +5,7 @@ import "gogoproto/gogo.proto";
 import "comdex/locker/v1beta1/locker.proto";
 import "comdex/locker/v1beta1/params.proto";
 
-option go_package            = "github.com/comdex-official/comdex/x/locker/types";
+option go_package            = "github.com/MonCatCat/comdex/v13/x/locker/types";
 option (gogoproto.equal_all) = false;
 option (gogoproto.goproto_getters_all) = false;
 

@@ -8,7 +8,7 @@ import "comdex/asset/v1beta1/app.proto";
 import "comdex/asset/v1beta1/extendedPairVault.proto";
 import "comdex/asset/v1beta1/params.proto";
 
-option go_package = "github.com/comdex-official/comdex/x/asset/types";
+option go_package = "github.com/MonCatCat/comdex/v13/x/asset/types";
 option (gogoproto.equal_all) = false;
 option (gogoproto.goproto_getters_all) = false;
 

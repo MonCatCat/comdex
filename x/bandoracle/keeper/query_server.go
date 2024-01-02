@@ -5,7 +5,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/comdex-official/comdex/x/bandoracle/types"
+	"github.com/MonCatCat/comdex/v13/x/bandoracle/types"
 )
 
 var _ types.QueryServer = Keeper{}

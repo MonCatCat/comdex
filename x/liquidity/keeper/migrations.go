@@ -3,7 +3,7 @@ package keeper
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	v2 "github.com/comdex-official/comdex/x/liquidity/legacy/v2"
+	v2 "github.com/MonCatCat/comdex/v13/x/liquidity/legacy/v2"
 )
 
 type Migrator struct {

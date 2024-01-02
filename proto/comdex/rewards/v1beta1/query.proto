@@ -9,7 +9,7 @@ import "comdex/rewards/v1beta1/rewards.proto";
 import "comdex/rewards/v1beta1/gauge.proto";
 import "comdex/rewards/v1beta1/epochs.proto";
 
-option go_package = "github.com/comdex-official/comdex/x/rewards/types";
+option go_package = "github.com/MonCatCat/comdex/v13/x/rewards/types";
 
 // Query defines the gRPC querier service.
 service Query {

@@ -3,8 +3,8 @@ package liquidationsV2
 import (
 	"fmt"
 
-	"github.com/comdex-official/comdex/x/liquidationsV2/keeper"
-	"github.com/comdex-official/comdex/x/liquidationsV2/types"
+	"github.com/MonCatCat/comdex/v13/x/liquidationsV2/keeper"
+	"github.com/MonCatCat/comdex/v13/x/liquidationsV2/types"
 	abci "github.com/cometbft/cometbft/abci/types"
 	"github.com/cosmos/cosmos-sdk/telemetry"
 	sdk "github.com/cosmos/cosmos-sdk/types"

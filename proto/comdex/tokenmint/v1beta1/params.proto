@@ -3,7 +3,7 @@ package comdex.tokenmint.v1beta1;
 
 import "gogoproto/gogo.proto";
 
-option go_package = "github.com/comdex-official/comdex/x/tokenmint/types";
+option go_package = "github.com/MonCatCat/comdex/v13/x/tokenmint/types";
 
 // Params defines the parameters for the module.
 message Params {
